@@ -1,0 +1,24 @@
+.center {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.divA {
+  margin-bottom: 0.3em;
+}
+
+.divB {
+  margin-bottom: 0.3em;
+}
+
+.divSelect {
+  margin-bottom: 0.3em;
+}
+
+.divBtn {
+  margin-bottom: 0.3em;
+}
+

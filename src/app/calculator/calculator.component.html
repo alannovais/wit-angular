@@ -1,0 +1,39 @@
+<div class="center">
+  <div class="divA">
+    <div class="group">
+      <label for="inputA">Input A: </label>
+    </div>
+    <div class="group">
+      <input type="number" [(ngModel)]="a" />
+    </div>
+  </div>
+  <div class="divB">
+    <div class="group">
+      <label for="inputB">Input B: </label>
+    </div>
+    <div class="group">
+      <input type="number" [(ngModel)]="b" />
+    </div>
+  </div>
+  <div class="divSelect">
+    <div class="group">
+      <select name="operation" [(ngModel)]="operation" id="">
+        <option value="">Select value</option>
+        <option value="sum">Sum</option>
+        <option value="sub">Sub</option>
+        <option value="mult">mult</option>
+        <option value="div">div</option>
+      </select>
+    </div>
+  </div>
+  <div class="divBtn">
+    <div class="group">
+      <button (click)="calculate()">Calculate</button>
+    </div>
+  </div>
+  <div class="divResult">
+    <div class="group">
+      <span>Result is: {{ result }}</span>
+    </div>
+  </div>
+</div>
